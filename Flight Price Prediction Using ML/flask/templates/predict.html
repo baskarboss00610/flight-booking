@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    
+        <div class="main">
+            <div class="navbar">
+                <div class="icon">
+                    <h1 class="logo">Flight Booking</h1>
+                </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="/home">Home</a></li>
+                            <li><a href="/predict">prediction</a></li>
+                        </ul>
+                    </div>
+        <div class="main">
+            <div class="navbar">
+                <div class="">
+                    <div class="pre">
+                        <h1 class="pre1">Flight price prediction</h1>
+                    </div>
+                    <form action="/pred" method="post"></form>
+                        <div class="pre2">
+                            <label>airline</label>
+                            <select class="pre3">
+                                <option value="">Air India</option>
+                                <option value="">IndiGo</option>
+                                <option value="">Multiple carriers</option>
+                                <option value="">SpiceJet</option>
+                                <option value="">Jet Airways</option>
+                                <option value="">GoAir</option>
+                                <option value="">Vistara</option>
+                                <option value="">AirAsia </option>
+                                <option value="">Vistara Premium economy</option>
+                                <option value="">Jet Airways Business</option>
+                                <option value="">Trujet</option>
+                                <option value="">Multiple carriers economy</option>
+                            </select>
+                            <div class="">
+                                <label>source</label>
+                                <select name="" id="" class="pre3">
+                                    <option value="">Chenni</option>
+                                    <option value="">Delhi</option>
+                                    <option value="">Mumbai</option>
+                                    <option value="">Banglore</option>
+                                    <option value="">Kolkata</option>
+                                    <option value=""></option>
+                                </select>
+                            </div>
+                            <div class="">
+                                <label>destination</label>
+                                <select name="" id="" class="pre3">
+                                    <option value="">New Delhi</option>
+                                    <option value="">Delhi</option>
+                                    <option value="">Cochin</option>
+                                    <option value="">Hyderabad</option>
+                                    <option value="">Banglore</option>
+                                    <option value="">Kolkata</option>
+                                    <option value=""></option>
+                                </select>
+                            </div>
+                            <div >
+                                <label for="">depdate</label><br>
+                                <input type="text" placeholder="Date" class="pre4">
+                            </div>
+                            <div >
+                                <label for="">depmonth</label><br>
+                                <input type="text" placeholder="Month" class="pre4">
+                            </div>
+                            <div >
+                                <label for="">depyear</label><br>
+                                <input type="text" placeholder="Year" class="pre4">
+                            </div>
+                            <div >
+                                <label for="">deptimehour</label><br>
+                                <input type="text" placeholder="Dep_Time_Hour" class="pre4">
+                            </div>
+                            <div >
+                                <label for="">deptimemins</label><br>
+                                <input type="text" placeholder="Dep_Time_Mins" class="pre4">
+                            </div>
+                            <div>
+                                <label for="">artime</label><br>
+                                <input type="text" placeholder="Arrival_Date" class="pre4">
+                            </div>
+                            <div>
+                                <label for="">artimehour</label><br>
+                                <input type="text" placeholder="Arrival_Time_Hour" class="pre4">
+                            </div>
+                            <div>
+                                <label for="">artimemins</label><br>
+                                <input type="text" placeholder="Arrival_Time_Mins" class="pre4">
+                            </div>
+                            <div>
+                                <button ><a href="/pred">submit</a></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

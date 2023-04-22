@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main {
+    width: 100%;
+    background-image: linear-gradient( to top, rgba(0,0,0,0.5)30%, rgba(0,0,0,0.5)30%),url(2.jpeg);
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+
+}
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.body {
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url(2.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.login {
+    height: 380px;
+    width: 350px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.zuzee {
+    background:linear-gradient(to top, rgba(0,0,0,0.5)100%, rgba(0,0,0,0.5)100%);
+    position:sticky;
+    background-color :black;
+    top: 200px;
+    left: 200px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding:0 15px 0 15px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 120px;
+    border-radius: 30px;
+    
+}
+.zara {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+.zara1 {
+    color: #ff7200;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 35px;
+}
+.input {
+    height: 45px;
+    width: 80%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 0 0 0 45px;
+}
+.submit {
+    border: none;
+    border-radius: 30px;
+    height: 45px;
+    width: 95%;
+    
+    
+}
+.icon {
+    width: 300px;
+    float: left;
+    height: 70px;
+}
+.sign {
+    
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4 ease-in-out;
+    padding-left: 100px;
+    
+}
+a {
+    color: #ff7200;
+    text-decoration: none;
+}
+a:hover {
+    color:#fff;
+}
+.logo {
+    color:orange;
+    font-size: 30px;
+    font-family:Arial;
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+}
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul {
+    float: left;
+    display: flex;
+    justify-content:center;
+    align-items:end;
+}
+ul li {
+    list-style: none;
+    margin-left: 90px;
+    font-size: 14px;
+    margin-top: 27px;
+}
+ul li a {
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4 ease-in-out;
+    color: #fff;
+
+}
+ul li a:hover{
+    color: #ff7200;
+    
+}
+.pre {
+    color:white;
+    font-family:'Arial Narrow Bold';
+    font-size: large;
+    padding-left: 10px;
+}
+.pre1 {
+    
+    font-style: italic;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 100px;
+    height: 100px;
+    width: 400px;
+    color: #fff;
+}
+.pre2 {
+    
+    padding-left: 100px;
+    padding-bottom: 20px;
+    font-family: 'Lucida Sans';
+    font-size: 15px;
+    color: #fff;
+    border-radius: 10px;
+}
+.pre3 {
+    
+    border-radius: 30px;
+    padding: 0 0 0 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 80px;
+    padding-left: 40px;
+    width: 18%;
+    
+    
+}
+.pre4 {
+    
+    border-radius: 30px;
+    padding: 0 0 0 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 80px;
+    padding-left: 40px;
+    width: 18%;
+}
+
+.sky {
+    width: 10px;
+}
+.sky1 {
+    font-style: italic;
+    font-size: 45px;
+    padding-left: 20px;
+    padding-top: 200px;
+    height: 100px;
+    width: 400px;
+    color: #fff;
+}
+.sky2 {
+    font-family: Arial;
+    display: flex;
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.sky3 {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.sky4 {
+    height: 45px;
+    width: 20%;
+    border-radius: 10px;
+    font-size: medium;
+    font-family: Georgia;
+}
+.zuzee1{
+    background:linear-gradient(to top, rgba(0,0,0,0.5)100%, rgba(0,0,0,0.5)100%);
+    position:sticky;
+    background-color :black;
+    top: 200px;
+    left: 200px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding:0 15px 0 15px;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+}
+.zara2 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+.body1 {
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url(2.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.login1 {
+    height: 380px;
+    width: 350px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+body{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url(2.jpeg);    
+    background-size:900px 900px;
+}
